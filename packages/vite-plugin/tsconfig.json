@@ -10,7 +10,9 @@
     "paths": {
       "client/*": ["src/client/*"],
       "src/*": ["src/node/*"],
-      "tests/*": ["tests/*"]
+      "tests/*": ["tests/*"],
+      "rxjs": [ "node_modules/rxjs"],
+      "rxjs/*": [ "node_modules/rxjs/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
